@@ -1,5 +1,3 @@
-<?php
-
 add_action( 'wbk_add_appointment', 'my_wbk_add_appointment', 10, 1 ); 
 function my_wbk_add_appointment( $data ){
 	$appointment = new WBK_Appointment();
